@@ -6,8 +6,8 @@ This project modifies the Lunar Lander environment to be more demanding and real
 
 ## Key Changes
 
-- **§_observationidealP**:  
-  Given the relation of the unknown function to the known derivative, find an equation.
+-**Partial Observability**:
+  The agent sees only 6 state variables (position, velocity, partial angle info), omitting certain data to simulate sensor limitations.
 
 - **Dynamic Conditions**:  
   Wind intensity, turbulence, and gravity can change from one episode to another, testing the agent’s adaptability.
