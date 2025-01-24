@@ -6,7 +6,7 @@ This project modifies the Lunar Lander environment to be more demanding and real
 
 ## Key Changes
 
--**Partial Observability**:
+- **Partial Observability**:
   The agent sees only 6 state variables (position, velocity, partial angle info), omitting certain data to simulate sensor limitations.
 
 - **Dynamic Conditions**:  
